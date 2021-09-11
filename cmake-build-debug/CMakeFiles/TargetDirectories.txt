@@ -1,0 +1,3 @@
+D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/CMakeFiles/grupa_1_7.dir
+D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

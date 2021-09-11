@@ -6,19 +6,19 @@
 
 using namespace std;
 
-vector<vector<string>> read_from_file(string file){
+vector<vector<string>> read_from_file(string file) {
     ifstream myFile(file);
     string lineText;
     string lineTextValue;
 
     vector<vector<string>> parts = {};
     getline(myFile, lineText);
-    if(myFile){
+    if (myFile) {
         while (getline(myFile, lineText)) {
             vector<string> part;
             stringstream ss;
-            ss<<lineText;
-            while(getline(ss, lineTextValue, ',')) {
+            ss << lineText;
+            while (getline(ss, lineTextValue, ',')) {
                 part.push_back(lineTextValue);
             }
             parts.push_back(part);

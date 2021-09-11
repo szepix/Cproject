@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-#include <stdio.h>
+#include <cstdio>
 #include <ctime>
 #include <cstdlib>
 #include <cmath>
@@ -22,9 +22,8 @@
 using namespace std;
 
 
-int main()
-{
-    srand(time(NULL));
+int main() {
+    srand(time(nullptr));
     Simulation simulation;
     simulation.run();
     return 0;

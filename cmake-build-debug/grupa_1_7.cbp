@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="grupa_1_7"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grupa_1_7">
+				<Option output="D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/grupa_1_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/codes/c++/kalkulator/grupa-1.7/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 grupa_1_7"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grupa_1_7/fast">
+				<Option output="D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/grupa_1_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/codes/c++/kalkulator/grupa-1.7/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 grupa_1_7/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/codes/c++/kalkulator/grupa-1.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/basket.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/basket.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/book.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/book.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/books_col.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/bookstore.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/bookstore.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/box.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/box.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/customer.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/customer.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/main.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/ordered_books.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/ordered_books.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/person.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/person_col.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/salesman.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/salesman.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/section.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/section.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/section_col.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/section_col.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/simulation.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/simulation.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/utils.cpp">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/utils.h">
+			<Option target="grupa_1_7"/>
+		</Unit>
+		<Unit filename="D:/codes/c++/kalkulator/grupa-1.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -6,32 +6,31 @@
 using namespace std;
 
 
-void Box::add_book(Book& book){
+void Box::add_book(Book &book) {
     int bookId = book.get_id();
     books.insert(map<unsigned int, Book>::value_type(bookId, book));
 }
 
 void Box::delete_book(unsigned int id) {
-    map<unsigned int, Book>::iterator it = books.find(id);
+    auto it = books.find(id);
     if (it != books.end()) {
         books.erase(it);
-    }
-    else {
+    } else {
         cout << "This book does not exist" << endl;
     }
 }
 
 
-Book& Box::get_book(unsigned int id) {
+Book &Box::get_book(unsigned int id) {
     return books.find(id)->second;
 }
 
-const map<unsigned int, Book>& Box::get_books() const {
+const map<unsigned int, Book> &Box::get_books() const {
     return books;
 }
 
 
-bool Box::has_book_id(unsigned int id){
+bool Box::has_book_id(unsigned int id) {
     return books.find(id) != books.end();
 }
 
